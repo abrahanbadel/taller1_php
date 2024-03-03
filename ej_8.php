@@ -1,0 +1,2 @@
+<?php
+#1.	El almacén Buena Ropa cuenta con los registros mensuales de ventas de enero a diciembre del año 2023 y desea un algoritmo para determinar: en qué mes se tuvo la venta más alta, en cuál la más baja y el promedio de todas las ventas.
