@@ -1,0 +1,2 @@
+<?php
+#4.	En una entrevista para contratar personal se tienen en cuenta los siguientes criterios: educación formal, edad y estado civil. Los puntajes son: para edades entre 18-24 años,10 puntos; entre 25 - 30, 20 puntos; 31 - 40 años, 15 puntos; mayores de 40, 8 puntos. Para estudios de bachillerato 5 puntos, tecnológicos 8 puntos, profesionales 10 puntos, postgrado 15 puntos. Estado civil soltero 20 puntos, casado 15 puntos, unión libre 12 puntos, separado 18 puntos. Se requiere calcular el puntaje total para un entrevistado.
