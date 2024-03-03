@@ -1,0 +1,2 @@
+<?php
+#1.	Diseñar un algoritmo que genere números aleatorios, tantos como el programador decida. Al finalizar el ciclo reportar cuántos números pares y cuántos impares se registraron, cuánto suman los pares y cuánto los impares.
