@@ -4,14 +4,16 @@
 function calcularCostoEnvio($montoPedido) {
     if ($montoPedido > 100000) {
         return 0;
-    } elseif ($montoPedido > 50000) {
+    } elseif ($montoPedido > 50000 && $montoPedido <= 100000) {
         return 2000;
     } else {
         return 4000;
     }
+}
 
-$pedido = rand(10000,999999);
+$pedido = rand(10000,200000);
 $costoEnvio = calcularCostoEnvio($pedido);
 $totalAPagar = $pedido + $costoEnvio;
-echo "El valor a cancelar por el cliente es: $" . $totalAPagar;
+echo "El valor del pedido es de: $".number_format($pedido) ;
+echo "<br>El valor a cancelar por el cliente es: $" .number_format($totalAPagar);
 ?>

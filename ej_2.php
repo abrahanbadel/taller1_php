@@ -25,3 +25,4 @@ if ($promedio >= 4.8) {
     $matricula = $matricula + ($matricula * 0.1);
 }
 echo "El valor de la matrícula para el siguiente semestre es de: $$matricula ";
+?>

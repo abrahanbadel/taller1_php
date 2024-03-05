@@ -15,3 +15,4 @@ echo "El descuento de su compra es de: $descuento";
 
 $precioFinal = $precioCompra - $descuento;
 echo "<br>El precio final a pagar es: $$precioFinal";
+?>
