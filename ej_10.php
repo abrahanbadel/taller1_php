@@ -1,8 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abraham Badel y Mateo Villalobos</title>
+</head>
+<body>
 <?php
-#4.	Cree un programa en PHP para implementar las ecuaciones del método de los mínimos cuadrado ordinarios, el cual permite encontrar los coeficientes de la recta y = mx + b que mejor se ajusta a un conjunto de datos. De la anterior ecuación se tiene que m es la pendiente y b el punto de corte o intersección con el eje y. Las 2 ecuaciones siguientes permiten calcular los valores de m y b: (ver imagen del word)
 
+#abrahan jussep badel palmett
+#mateo david villalobos bertel
 
-// Datos de ejemplo (https://www.youtube.com/watch?time_continue=311&v=gUdU6BgnJ2c&embeds_referring_euri=https%3A%2F%2Fwww.google.com%2Fsearch%3Fq%3Dm%25C3%25A9todo%2Bde%2Bm%25C3%25ADnimos%2Bcuadrados%2Bejercicios%2Bresueltos%26client%3Dopera-gx%26hs%3DAyh%26sca_esv%3Db443c1&source_ve_path=MTM5MTE3LDI4NjYyLDI4NjYyLDEzOTExNywxMzkxMTcsMjg2NjY&feature=emb_logo)
+# Datos de ejemplo (https://www.youtube.com/watch?time_continue=311&v=gUdU6BgnJ2c&embeds_referring_euri=https%3A%2F%2Fwww.google.com%2Fsearch%3Fq%3Dm%25C3%25A9todo%2Bde%2Bm%25C3%25ADnimos%2Bcuadrados%2Bejercicios%2Bresueltos%26client%3Dopera-gx%26hs%3DAyh%26sca_esv%3Db443c1&source_ve_path=MTM5MTE3LDI4NjYyLDI4NjYyLDEzOTExNywxMzkxMTcsMjg2NjY&feature=emb_logo)
 $datos = array(
     array(7, 2),
     array(1, 9),
@@ -48,3 +57,6 @@ echo "El punto de corte (b) es: $puntoCorte<br>";
 echo "y = ($pendiente)x + ($puntoCorte)";
 
 echo"<br><br><br>para hacer este ejercicio me guie de este video:<br> https://www.youtube.com/watch?time_continue=311&v=gUdU6BgnJ2c&embeds_referring_euri=https%3A%2F%2Fwww.google.com%2Fsearch%3Fq%3Dm%25C3%25A9todo%2Bde%2Bm%25C3%25ADnimos%2Bcuadrados%2Bejercicios%2Bresueltos%26client%3Dopera-gx%26hs%3DAyh%26sca_esv%3Db443c1&source_ve_path=MTM5MTE3LDI4NjYyLDI4NjYyLDEzOTExNywxMzkxMTcsMjg2NjY&feature=emb_logo";
+?>    
+</body>
+</html>

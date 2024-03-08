@@ -1,21 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abraham Badel y Mateo Villalobos</title>
+</head>
+<body>
 <?php
-#1.	Diseñar un algoritmo que genere números aleatorios, tantos como el programador decida. Al finalizar el ciclo reportar cuántos números pares y cuántos impares se registraron, cuánto suman los pares y cuánto los impares.
 
-
-function generarNumeroAleatorio($min, $max) {
-    return rand($min, $max);
-}
+#abrahan jussep badel palmett
+#mateo david villalobos bertel
 
 $numerosAGenerar = 10;
+
 $numerosPares = 0;
 $numerosImpares = 0;
 $sumaPares = 0;
 $sumaImpares = 0;
-$numerosGenerados = array(); 
+
+$numerosGenerados = array();
 
 for ($i = 0; $i < $numerosAGenerar; $i++) {
-    $numero = generarNumeroAleatorio(1, 100);
+    $numero = rand(1, 100);
     $numerosGenerados[] = $numero;
+
     if ($numero % 2 == 0) {
         $numerosPares++;
         $sumaPares += $numero;
@@ -30,4 +38,6 @@ echo "Cantidad de números pares generados: $numerosPares <br>";
 echo "Cantidad de números impares generados: $numerosImpares <br>";
 echo "Suma de los números pares: $sumaPares <br>";
 echo "Suma de los números impares: $sumaImpares <br>";
-?>
+?>    
+</body>
+</html>

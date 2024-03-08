@@ -1,19 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abraham Badel y Mateo Villalobos</title>
+</head>
+<body>
 <?php
-#3.	Un restaurante ofrece servicio a domicilio con las siguientes condiciones. Si el pedido es superior a $ 100.000 el servicio a domicilio no tiene ningún costo adicional, si es mayor a $50.000 y hasta $100.000 se cobrará un incremento de $2.000, y si es menor a 50.000 tendrá un incremento de $4.000. ¿Qué valor deberá cancelar el cliente?
 
-function calcularCostoEnvio($montoPedido) {
-    if ($montoPedido > 100000) {
-        return 0;
-    } elseif ($montoPedido > 50000 && $montoPedido <= 100000) {
-        return 2000;
-    } else {
-        return 4000;
-    }
+#abrahan jussep badel palmett
+#mateo david villalobos bertel
+
+$pedido = rand(10000, 200000);
+
+if ($pedido > 100000) {
+    $costoEnvio = 0;
+} elseif ($pedido > 50000) {
+    $costoEnvio = 2000;
+} else {
+    $costoEnvio = 4000;
 }
 
-$pedido = rand(10000,200000);
-$costoEnvio = calcularCostoEnvio($pedido);
 $totalAPagar = $pedido + $costoEnvio;
-echo "El valor del pedido es de: $".number_format($pedido) ;
-echo "<br>El valor a cancelar por el cliente es: $" .number_format($totalAPagar);
+
+echo "El valor del pedido es de: $" . number_format($pedido);
+echo "<br>El valor a cancelar por el cliente es: $" . number_format($totalAPagar);
 ?>
+</body>
+</html>

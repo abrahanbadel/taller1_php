@@ -1,9 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abraham Badel y Mateo Villalobos</title>
+</head>
+<body>
 <?php
-// 3.	Cree un algoritmo que tome 5 edades de forma aleatoria de 5 estudiantes y obtenga:
-//     a.	El promedio
-//     b.	La edad mayor
-//     c.	La edad menor
-    
+
+#abrahan jussep badel palmett
+#mateo david villalobos bertel
 $edades = array();
 for ($i = 0; $i < 5; $i++) {
     $edad = rand(17, 35);
@@ -24,3 +30,6 @@ $edadMenor = min($edades);
 echo "<br>El promedio de las edades es: $promedio<br>";
 echo "La edad mayor es: $edadMayor<br>";
 echo "La edad menor es: $edadMenor<br>";
+?>    
+</body>
+</html>

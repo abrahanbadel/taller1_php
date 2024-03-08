@@ -1,18 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abraham Badel y Mateo Villalobos</title>
+</head>
+<body>
 <?php
-#1.	El almacén Buena Ropa cuenta con los registros mensuales de ventas de enero a diciembre del año 2023 y desea un algoritmo para determinar: en qué mes se tuvo la venta más alta, en cuál la más baja y el promedio de todas las ventas.
 
-function generarVentasAleatorias() {
-    return rand(15000, 30000); 
-}
+#abrahan jussep badel palmett
+#mateo david villalobos bertel
 
 $ventasMensuales = array();
+
 $meses = [
-    "Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio",
-    "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"
+    "Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio","Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"
 ];
 
 foreach ($meses as $mes) {
-    $ventasMensuales[$mes] = generarVentasAleatorias();
+    $ventasMensuales[$mes] = rand(15000, 30000); 
 }
 
 $maximaVenta = max($ventasMensuales);
@@ -35,6 +41,8 @@ foreach ($ventasMensuales as $mes => $ventas) {
 echo "La venta más alta ocurrió en $mesMaximaVenta con un total de $maximaVentaFormateada. <br>";
 echo "La venta más baja ocurrió en $mesMinimaVenta con un total de $minimaVentaFormateada. <br>";
 echo "El promedio de ventas mensuales fue de $promedioVentasFormateado. <br>";
-?>
+?>    
+</body>
+</html>
 
 
